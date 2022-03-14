@@ -37,6 +37,7 @@ int main(int argc, char* argv[]) {
         index++;
 
         if (remanders[curr]) {
+            free(remanders);
             printf("It takes %d decimals to repeat\n", index);
             return 0;
         }
